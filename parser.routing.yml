@@ -1,0 +1,11 @@
+parser.parser_entity.parse:
+  path: '/admin/structure/parser_entity/{parser_entity}/parse'
+  defaults:
+    _controller: '\Drupal\parser\Controller\BatchCrawler::start'
+    _title: 'parser Sites'
+  options:
+    parameters:
+      parser_entity:
+        type: entity:parser_entity
+  requirements:
+    _permission: 'access content'

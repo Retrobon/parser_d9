@@ -1,0 +1,8 @@
+
+# Parser menu items definition
+entity.parser_entity.collection:
+  title: 'Parser'
+  route_name: entity.parser_entity.collection
+  description: 'List Parser (bundles)'
+  parent: system.admin_structure
+  weight: 99

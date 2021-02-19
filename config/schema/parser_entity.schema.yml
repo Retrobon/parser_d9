@@ -1,0 +1,21 @@
+parser.parser_entity.*:
+  type: config_entity
+  label: 'Parser config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    siteUrl:
+      type: string
+      label: 'Site Url'
+    nodeType:
+      type: string
+      label: 'Node Type'
+    parserPlugin:
+      type: string
+      label: 'Parser plugin'

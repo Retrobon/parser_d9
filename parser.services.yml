@@ -1,0 +1,8 @@
+services:
+  plugin.manager.crawl:
+    class: Drupal\parser\CrawlPluginManager
+    parent: default_plugin_manager
+
+  plugin.manager.parser:
+    class: Drupal\parser\ParserPluginManager
+    parent: default_plugin_manager

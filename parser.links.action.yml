@@ -1,0 +1,5 @@
+entity.parser_entity.add_form:
+  route_name: entity.parser_entity.add_form
+  title: 'Add Parser'
+  appears_on:
+    - entity.parser_entity.collection
