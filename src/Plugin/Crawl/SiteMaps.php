@@ -3,7 +3,6 @@
 namespace Drupal\parser\Plugin\Crawl;
 
 use Drupal\parser\CrawlPluginBase;
-use Drupal\parser\Entity\ParserEntity;
 use GuzzleHttp\Psr7\Uri;
 use vipnytt\SitemapParser;
 use vipnytt\SitemapParser\Exceptions\SitemapParserException;
