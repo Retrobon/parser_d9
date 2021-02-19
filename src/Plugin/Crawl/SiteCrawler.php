@@ -15,4 +15,8 @@ use Drupal\parser\CrawlPluginBase;
  */
 class SiteCrawler extends CrawlPluginBase {
 
+  public function urls()
+  {
+    // TODO: from https://github.com/spatie/crawler
+  }
 }

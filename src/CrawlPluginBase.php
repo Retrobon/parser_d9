@@ -19,7 +19,6 @@ abstract class CrawlPluginBase extends PluginBase implements CrawlInterface {
    * {@inheritdoc}
    */
   public function label() {
-    // Cast the label to a string since it is a TranslatableMarkup object.
     return (string) $this->pluginDefinition['label'];
   }
 
