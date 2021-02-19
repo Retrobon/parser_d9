@@ -7,7 +7,7 @@ use Drupal\parser\Entity\ParserEntity;
 use GuzzleHttp\Psr7\Uri;
 use vipnytt\SitemapParser;
 use vipnytt\SitemapParser\Exceptions\SitemapParserException;
-use function DI\string;
+
 
 /**
  * Plugin implementation of the crawl.
@@ -28,7 +28,7 @@ class SiteMaps extends CrawlPluginBase {
     $urls = [];
     try {
       $parser = new SitemapParser();
-      $parser->parseRecursive($this->entity->get('siteUrl').'/sitemap.xml');
+      $parser->parseRecursive($this->url($this->entity->get('siteUrl').'/sitemap.xml'));
       foreach ($parser->getURLs() as $url => $tags) {
         $urls[] = new Uri($url);
       }
