@@ -1,5 +1,5 @@
 {
-    "name": "drupal/parser",
+    "name": "retrobon/parser",
     "type": "drupal-module",
     "description": "",
     "require": {
