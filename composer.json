@@ -1,0 +1,15 @@
+{
+    "name": "drupal/parser",
+    "type": "drupal-module",
+    "description": "",
+    "require": {
+        "vipnytt/sitemapparser": "^1.0",
+        "spatie/crawler": "^5.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "drupal\\parser\\": "src/"
+        }
+    }
+}
